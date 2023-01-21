@@ -10,7 +10,7 @@ public class LaunchAddressbook {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       System.setProperty("webdriver.chrome.driver", "C:\\Users\\pkcsm\\Downloads\\chromedriver_win32\\chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", "/root/pkcs/chromedriver");
        WebDriver  driver = new ChromeDriver();
        driver.get("http://184.73.138.187:8080/addressbook/");
        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
